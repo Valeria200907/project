@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+}
+.header{
+  width: 100%;
+  height: 200px;
+  background: #F57C00;
+}
+.header__title{
+  font-size: 48px;
+  font-family: Ubuntu;
+  text-align: center;
+  float: left;
+  margin: 80px 0px 0px 200px;
+}
+.header__img{
+  height: 190px;
+  margin-top: 5px;
+  margin-left: 50px;
+  float: left;
+}
+.nav{
+  width: 100%;
+  height: 80px;
+  background: #FF9800;
+}
+.nav__item{
+  border-radius: 20px;
+  padding: 10px;
+  width: 30%;
+  height: 60px;
+  float: left;
+  font-size: 30px;
+  background: lightgreen;
+  margin: 10px 0px 10px 40px;
+  text-align: center;
+  list-style-type: none;
+}
+.main_small{
+  height: 1120px;
+  width: 80%;
+  background: #84E258;
+  float: left;
+}
+.main_big{
+  height: 2675px;
+  width: 80%;
+  background: #84E258;
+  float: left;
+}
+.main__section{
+  float: left;
+  width: 30%;
+  height: 500px;
+  margin: 35px 20px 35px 5px;
+}
+.main__medium{
+  height: 1000px;
+  width: 80%;
+  background: #84E258;
+  float: left;
+}
+.section__list{
+  padding: 10px 20px 10px 20px;
+  margin: 25px 45px 25px 30px;
+  background: #FFB74D;
+  width: 350px;
+  height: 400px;
+  float: left;
+  border-radius: 40px;
+  font-family: Ubuntu;
+}
+h3{
+  text-align: center;
+  font-family: Ubuntu;
+  margin: 30px 10px;
+}
+.list__item{
+  margin: 10px;
+  font-family: Inter;
+}
+h4{
+  font-size: 30px;
+  text-align: center;
+  margin: 50px;
+}
+.section__pg{
+  font-family: Inter;
+  margin: 65px 10px;
+}
+.section__pg_big{
+  font-family: Inter;
+  margin: 20px 50px 20px 50px ;
+}
+
+b{
+  margin-left: 10px;
+}
+.rules__item{
+  font-size: 30px;
+  font-family: Inter;
+  margin: 30px;
+  margin-left: 30%;
+}
+.aside_small{
+  width: 20%;
+  height: 1120px;  
+  background: #B5DD00;
+  float: right;
+}
+.aside_big{
+  width: 20%;
+  height: 2675px;  
+  background: #B5DD00;
+  float: right;
+}
+.aside__img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.footer{
+  background: #BDE040;
+  width: 100%;
+  height: 250px;
+  clear: both;
+}
